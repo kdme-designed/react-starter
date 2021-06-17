@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+
+# berry
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# testing
+coverage
+
+# production
+dist
+
+# cache
+.eslintcache
+.cache
+
+# logs
+logs
+*.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# dotenv
+.env
+*.local
+
+# misc
+.DS_Store
